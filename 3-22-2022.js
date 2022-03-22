@@ -18,3 +18,11 @@ function inAscOrder(arr) {
   // Code your algorithm here :)
   return arr.every((x, i) => i === 0 || arr[i - 1] <= x);
 }
+
+// 7kyu - Nice Array
+function isNice(arr) {
+  if (arr.length === 0) {
+    return false;
+  }
+  return arr.every((el) => arr.includes(el + 1) || arr.includes(el - 1));
+}
