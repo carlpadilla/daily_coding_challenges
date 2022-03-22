@@ -12,3 +12,9 @@ function filterLongWords(sentence, n) {
 const filter = filterLongWords('The quick brown fox jumps over the lazy dog', 4); //Return ['quick', 'brown', 'jumps']
 
 console.log(filter);
+
+// 7kyu - Are the numbers in order?
+function inAscOrder(arr) {
+  // Code your algorithm here :)
+  return arr.every((x, i) => i === 0 || arr[i - 1] <= x);
+}
