@@ -1,4 +1,4 @@
-// 8kyu - Hello, Name or World!
+// 8kyu - Hello, Name or World!!
 function hello(name) {
   if (name === '' || name === undefined) {
     return `Hello, World!`;
