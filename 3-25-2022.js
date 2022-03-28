@@ -10,10 +10,10 @@
 const sortReindeer = (list) =>
   [...list].sort((a, b) => {
     const [, surname1] = a.split(' ');
-    console.log(surname1);
+    // console.log(surname1);
 
     const [, surname2] = b.split(' ');
-    console.log(surname2);
+    // console.log(surname2);
 
     if (surname1 > surname2) return 1;
     if (surname2 > surname1) return -1;
