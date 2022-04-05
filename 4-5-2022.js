@@ -10,8 +10,11 @@ For example:
 
 */
 
-function maps(x) {
-  return x.map((x) => x * 2);
-}
+// function maps(x) {
+//   return x.map((x) => x * 2);
+// }
+
+//One liner
+const maps = (x) => x.map((x) => x * 2);
 
 console.log(maps([1, 2, 3]));
