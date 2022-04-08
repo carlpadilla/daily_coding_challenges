@@ -13,6 +13,5 @@ Your harried co-workers are looking to you for a solution to take this garbled t
 */
 
 function stringClean(s) {
-  // Function will return the cleaned string
-  retrun;
+  return s.replace(/[0-9]/g, "");
 }
