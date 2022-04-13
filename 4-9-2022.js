@@ -25,3 +25,13 @@ sameCase = (a, b) =>
   /[a-z]/i.test(a) && /[a-z]/i.test(b)
     ? Number(/[a-z]/.test(a) == /[a-z]/.test(b))
     : -1;
+
+// function sameCase(a, b){
+//   if(a.toUpperCase() === a.toLowerCase() || b.toLowerCase() === b.toUpperCase()){
+//      return -1
+//    }else if(a === a.toLowerCase() && b === b.toLowerCase() || a === a.toUpperCase() && b === b.toUpperCase()){
+//        return 1
+//    }else{
+//      return 0
+//    }
+//  }
