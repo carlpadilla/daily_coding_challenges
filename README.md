@@ -31,4 +31,4 @@ Total Completed Kata: 45
   * 5kyu Completed: 13/795
   * 4kyu Completed: 1/255 -->
 
-### Thanks for checking these out!
+### Thanks for checking these out!!
