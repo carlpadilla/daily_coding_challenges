@@ -13,5 +13,7 @@ Good luck!
 */
 
 function solve(s) {
-  //..
+  return [/[A-Z]/, /[a-z]/, /\d/, /[\W]/].map((rgx) => s.split(rgx).length - 1)
 }
+
+console.log(solve("Codewars@codewars123.com")) //[1,18,3,2]
