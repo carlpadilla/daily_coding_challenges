@@ -11,6 +11,12 @@ b = 4
 
 function between(a, b) {
   // your code here
+  const arr = [];
+  for (let i = a; i < b + 1; i++) {
+    arr.push(i);
+  }
+  return arr;
 }
 
 console.log(between(1, 4));
+console.log(between(-2, 2));
