@@ -11,3 +11,8 @@ The conversion rate you should use is 6.75 CNY for every 1 USD. All numbers shou
 
 
 */
+
+function usdcny(usd) {
+  let result = usd * 6.75
+  return result.toFixed(2).toString() + " Chinese Yuan"
+}
