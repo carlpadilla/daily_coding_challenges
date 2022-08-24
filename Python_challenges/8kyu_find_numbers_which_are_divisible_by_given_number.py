@@ -11,3 +11,16 @@
 
 def divisible_by(numbers, divisor):
     return [n for n in numbers if n % divisor == 0]
+
+
+
+
+
+
+# 2nd solution
+# def divisible_by(numbers, divisor):
+#     result = []
+#     for num in numbers:
+#         if num % divisor == 0:
+#             result.append(num)
+#     return result
