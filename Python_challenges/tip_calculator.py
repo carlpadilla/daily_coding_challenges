@@ -7,8 +7,24 @@
 
 # Write your code below this line 👇
 
-print(" _____  _  ____    ____  ____  _     ____  _     _     ____  _____  ____  ____
-      / __ __\/ \/ __ / _\/ _ \/ /   _\/ \ /\/ /  _ \/ __ __\/ _ \/ __
-      / | | |  \/ | | / | / \| | | | / | | | | | | | / \| / | / \| |  \/ |
-      | | | | | __ / |  \__ | |- | | | |_ /\| _ | \_/| | |_ /\| | - | | | | | \_/| | / _ / _ /\_ / ____ /\_ / \|\____ /\____ /\____ /\____ /\_ / \| _ / ____ /\_ /\_
-      ")
+print('Welcome to the tip calculator!')
+
+bill = input('How much was the bill? ')
+
+percentage = input(
+    "How much percentage tip would you like to leave? 10, 12, or 15? ")
+
+guest = input('How many people will be splitting the bill? ')
+
+bill_in_int = float(bill)
+
+percentage_in_int = int(percentage)
+
+guest_in_int = int(guest)
+
+tip = (percentage_in_int / 100) * bill_in_int
+
+print(round((tip + bill_in_int) / guest_in_int))
+
+
+# can be refactored and made cleaner.
